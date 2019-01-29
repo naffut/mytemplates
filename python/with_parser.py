@@ -3,8 +3,7 @@
 from __future__ import print_function
 
 import argparse
-import os
-import sys
+import os, sys
 
 DESCRIPTION="""\
 Short description regarding the program
@@ -16,6 +15,9 @@ def get_parser():
     :returns: Parser
     :rtypepe: argparse.ArgumentParser
     """
+
+    if x>y:
+
 
     parser = argparse.ArgumentParser(description=DESCRIPTION, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('--version', action='version', version='0.0')
